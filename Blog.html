@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;
+        400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/623d2ea8a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Image/Plastic_logo_final.png"></a>
+            <div class="logo_content">Plastic Free Society</div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Effect.html">EFFECTS</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>How to make our Society, Plastic Free</h1>
+    </section>
+
+    <!-- -------- Blog Page Content -------- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Image/Effect.jpg">
+                <h2>Something About Plastic Free Society</h2>
+
+                <p><b> 1. INTRODUCTION TO PLASTIC POLLUTION :</b>
+                <br><br>
+                In the last decade, plastic has affected the health and life of human beings very badly. 
+                Some incidents have attracted the attention of the whole world and put a question mark 
+                about the use of plastic in daily life.
+                <br><br>
+                <b>Advertisements :</b>
+                <br>
+                Plastic, the wonder material that we use for everything and which pollutes our environment, 
+                is perhaps the most harmful of trash dumped by mariners and sea-goers in sea because it does 
+                not readily break down in nature. In-fact, the plastic that goes over the side today may 
+                still be around in hundreds of years to foul up the fishing gear, boat propellers, and 
+                beaches of future generations.</p>
+                <br>
+                <p><b> 2. CAUSES OF PLASTIC POLLUTION :</b>
+                <br><br>
+                Plastics are used because these are easy and cheap to make and they can last a long time. 
+                Unfortunately these very useful qualities make plastic a huge pollution problem. 
+                Because the plastic is cheap it gets discarded easily and its persistence in the environment 
+                can do great harm. Unbanization has added to the plastic pollution in concentrated form in cities.
+                <br><br>
+                <b>Advertisements :</b>
+                <br>
+                Plastic thrown on land can enter the drainage lines and choke them resulting into floods 
+                in local areas in cities as was experienced in Mumbai, India in 1998. It was claimed 
+                in one of the programmes on TV channel that eating plastic bags results in death of 
+                100 cattle per day in U.P. in India.</p>
+                <br>
+                <p><b> 3. EFFECTS OF PLASTIC POLLUTION</b>
+                <br><br>
+                Since the development of plastic earlier this century, it has become a popular material used 
+                in a wide variety of ways. Today plastic is used to make, or wrap around, many of the items 
+                we buy or use. The problem arises when we no longer want these items and we have to dispose 
+                off them, particularly the throwaway plastic material used in wrapping or packaging.
+                <br><br>
+                Plastics are used because they are easy and cheap to make and they can last a long time. 
+                Unfortunately these same useful qualities can make plastic a huge pollution problem. 
+                The cheapness means plastic gets discarded easily and its long life means it survives 
+                in the environment for long periods where it can do great harm.
+                <br><br>
+                The plastic rubbish found on beaches near urban areas tends to originate from use on land, 
+                such as packaging material used to wrap around other goods. On remote rural beaches the 
+                rubbish tends to have come from ships, such as fishing equipment used in the fishing industry.</p>
+                <br>
+                <p><b> 4. CONTROL OF PLASTIC POLLUTION</b>
+                <br><br>
+                Plastic bags and bottles, like all forms of plastic, create significant environmental and economic 
+                burden. They consume growing amount of energy and other natural resources, degrading the 
+                environment in a number of ways.
+                <br><br>
+                In addition to using up fossil fuels and other resources, plastic products create litter, 
+                hurt marine life, and threaten the basis of life on earth. Here are some steps that we can 
+                take to reverse the tide of toxic, non-biodegradable pollution so that it may not overtake our planet.
+                </p>
+                <br>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Categories</h3>
+                <div>
+                    <span>1</span>
+                    <span>INTRODUCTION TO PLASTIC POLLUTION</span>
+                </div>
+                <div>
+                    <span>2</span>
+                    <span>CAUSES OF PLASTIC POLLUTION</span>
+                </div>
+                <div>
+                    <span>3</span>
+                    <span>EFFECTS OF PLASTIC POLLUTION</span>
+                </div>
+                <div>
+                    <span>4</span>
+                    <span>CONTROL OF PLASTIC POLLUTION</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------- Javascript for Toggle Menu -------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+    
+
+    <!-- --------- Footer --------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>I am a student of Batchelor of Technology and creating this Website to make aware all the people 
+            of Plastic Free Society.</p>
+        <div class="icon">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Manisha Khamrui</p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;
+        400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/623d2ea8a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Image/Plastic_logo_final.png"></a>
+            <div class="logo_content">Plastic Free Society</div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Effect.html">EFFECTS</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Plastic Free Society</h1>
+            <p>Plastic is everywhere nowadays. People are using it endlessly just for their comfort. We need to become aware of <br> the consequences so that we can stop plastic pollution.</p>
+            <a href="" class="hero-btn">Visit Us To know More</a>
+        </div>
+    </section>
+
+    <!-- -------- Javascript for Toggle Menu -------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!-- --------- Effects --------- -->
+
+    <section class="effect">
+        <h1>Things we have to do</h1>
+        <p>Do you think it’s possible to live life without plastic? Wondering how to do it or at least 
+        get started? You’ve come to the right place. <br> Here’s a list of steps I took in my own life 
+        since beginning this project</p>
+       
+        <div class="row">
+            <div class="effect-col">
+                <h3>Carry reusable shopping bags</h3>
+                <p>Carry whatever works for you. Some people like reusable canvas totes. Others 
+                prefer to put their purchases into a backpack or messenger bag. Do you often forget 
+                your reusable bags? ChicoBags are a great emergency alternative. While they are made 
+                from synthetic materials, they compress into their own attached stuff sack, which 
+                makes them very convenient and likely to be used.</p>
+            </div>
+            <div class="effect-col">
+                <h3>Give up bottled water.</h3>
+                <p>Not only does it come in a plastic bottle, but tremendous resources are used to extract, 
+                bottle, and ship it. And many brands of bottled water are simply filtered tap water. 
+                Get a reusable stainless steel bottle or stainless steel travel mug, 
+                fill it up with tap water before leaving the house, and refill it wherever you happen to be. 
+                I don’t recommend reusable plastic or aluminum bottles.</p>
+            </div>
+            <div class="effect-col">
+                <h3>Shop your local farmers market.</h3>
+                <p>Farmers markets are a great way to buy fresh, local produce without plastic, as long as you 
+                remember to bring your own bags. Normally, the fruits and vegetables at farmers markets don’t 
+                even have those little plastic stickers on them. And for small fruits like berries and cherry 
+                tomatoes, use your own container or bag and hand the vendor’s plastic container back to reuse. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- Campaign --------- -->
+    <section class="campaign">
+        <h1>Our Global Campaign</h1>
+        <p>Campaign done all over the world on Global Free Society</p>
+
+        <div class="row">
+            <div class="campaign-col">
+                <img src="Image/clean_seas_campaign.jpeg">
+                <div class="layer">
+                    <h3>Clean Seas Campaign</h3>
+                </div>
+            </div>
+            <div class="campaign-col">
+                <img src="Image/School_Supply_Exchange.png">
+                <div class="layer">
+                    <h3>School Supply Exchange</h3>
+                </div>
+            </div>
+            <div class="campaign-col">
+                <img src="Image/Plastic Free India.jpg">
+                <div class="layer">
+                    <h3>Plastic Free India</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- Things --------- -->
+
+    <section class="things">
+        <h1>Daily Things we Do</h1>
+        <p>Daily things we do, which is responsible to make our Society polluted due to Plastic</p>
+
+        <div class="row">
+            <div class="things-col">
+                <img src="Image/Cafeteria_1.jpg">
+                <h3>Food Order</h3>
+            </div>
+            <div class="things-col">
+                <img src="Image/Cafeteria_2.jpg">
+                <h3>Shopping</h3>
+            </div>
+            <div class="things-col">
+                <img src="Image/Cafeteria_3.jpg">
+                <h3>Drinking Coke</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- Call to Action --------- -->
+
+    <section class="cta">
+        <h1>You can contact us from <br> anywhere of the world</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- --------- Footer --------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>I am a student of Batchelor of Technology and creating this Website to make aware all the people 
+            of Plastic Free Society.</p>
+        <div class="icon">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Manisha Khamrui</p>
+    </section>
+</body>
+</html>

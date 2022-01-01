@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;
+        400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/623d2ea8a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Image/Plastic_logo_final.png"></a>
+            <div class="logo_content">Plastic Free Society</div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Effect.html">EFFECTS</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- -------- Javascript for Toggle Menu -------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!-- --------- About Us --------- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Awareness on Plastic Free Society</h1>
+                <p>We are here to make all the people aware about Plastic Free Society.
+                    As we all know How much Plastic is harmful for any living being's health?
+                    So, it is very necessary to learn about the harmful efeects of Plastic.
+                    We have written too many steps to follow for Plastic Free Society in Blog page.
+                    Therefore, go to the blog page to know about this.
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="Image/About_image.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- Footer --------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>I am a student of Batchelor of Technology and creating this Website to make aware all the people 
+            of Plastic Free Society.
+        </p>
+        <div class="icon">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Manisha Khamrui</p>
+    </section>
+</body>
+</html>
